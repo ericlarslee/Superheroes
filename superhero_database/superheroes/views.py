@@ -14,6 +14,12 @@ def index(request):
     return render(request, 'superheroes/index.html', context)
 
 
+def detail(request, superhero_id):
+    temp_hero = Superhero.objects.get(pk=superhero_id)
+    context = {'superhero': temp_hero}
+    return render(request, 'superheroes/detail.html', context)
+
+
 def create(request):
     if request.method == 'POST':
         name = request.POST.get('name')
@@ -26,3 +32,12 @@ def create(request):
         return HttpResponseRedirect(reverse('superheroes:index'))
     else:
         return render(request, 'superheroes/create.html')
+
+
+def update_page(request, superhero_id):
+    update_hero = Superhero.objects.get(pk=superhero_id)
+    context = {'superhero': update_hero}
+    return render(request, 'superheroes/update_hero.html', context)
+
+
+def update
