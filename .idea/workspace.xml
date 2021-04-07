@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fa862c6-785c-427a-aeed-4ab9485d50eb" name="Default Changelist" comment="" />
+    <list default="true" id="2fa862c6-785c-427a-aeed-4ab9485d50eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superhero_database/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superhero_database/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superhero_database/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superhero_database/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superhero_database/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superhero_database/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superhero_database/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superhero_database/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/template/superheroes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +30,9 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qo0bDcXq1vJx8dylnLxYN4LHSv" />
   <component name="ProjectViewState">
@@ -34,5 +54,16 @@
       <updated>1617730704471</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
