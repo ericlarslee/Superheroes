@@ -45,3 +45,8 @@ def update_superhero(request):
         updated_hero = Superhero(id=idn, name=name, alter_ego=alter_ego, primary_superhero_ability=primary_superpower, secondary_superhero_ability=secondary_superpower, catchphrase=catchphrase)
         updated_hero.save()
         return HttpResponseRedirect(reverse('superheroes:index'))
+
+
+def delete_superhero(request):
+    exiled_hero = Superhero.objects.get(pk=superhero_id)
+    return request, exiled_hero.delete()

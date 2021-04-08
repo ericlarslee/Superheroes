@@ -21,6 +21,10 @@
     Secondary Superpower:<input type="text" name="secondary_superpower" id="secondary_superpower"><br>
     Catchphrase:<input type="text" name="catchphrase" id="catchphrase"><br>
     <input type="submit" value="Update Hero">
-
+</form>
+<form action="{% url 'superheroes:delete_superhero' %}" method=post>
+    {% csrf_token %}
+    <input type="submit" value="Delete Superhero">
+</form>
 </body>
 </html>
