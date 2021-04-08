@@ -34,10 +34,14 @@ def create(request):
         return render(request, 'superheroes/create.html')
 
 
-def update_page(request, superhero_id):
-    update_hero = Superhero.objects.get(pk=superhero_id)
-    context = {'superhero': update_hero}
-    return render(request, 'superheroes/update_hero.html', context)
-
-
-def update
+def update_superhero(request):
+    if request.method == 'POST':
+        idn = request.POST.get('id')
+        name = request.POST.get('name')
+        alter_ego = request.POST.get('alter_ego')
+        primary_superpower = request.POST.get('primary_superpower')
+        secondary_superpower = request.POST.get('secondary_superpower')
+        catchphrase = request.POST.get('catchphrase')
+        updated_hero = Superhero(id=idn, name=name, alter_ego=alter_ego, primary_superhero_ability=primary_superpower, secondary_superhero_ability=secondary_superpower, catchphrase=catchphrase)
+        updated_hero.save()
+        return HttpResponseRedirect(reverse('superheroes:index'))

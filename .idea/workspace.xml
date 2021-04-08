@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2fa862c6-785c-427a-aeed-4ab9485d50eb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/templates/superheroes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/templates/superheroes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/templates/superheroes/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/templates/superheroes/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/templates/superheroes/update_hero.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/superhero_database/superheroes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/superhero_database/superheroes/views.py" afterDir="false" />
     </list>
